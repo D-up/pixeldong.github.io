@@ -1,23 +1,26 @@
 .comparison-slider-wrapper {
   position: relative;
   width: 100%;
-  margin: 20px 0;
+  margin: 0px 0;
   background-color: #ffffff; }
   .comparison-slider-wrapper .comparison-slider {
     position: relative;
     width: 100%;
     margin: 0;
-    border: 5px #ffffff solid;
-    box-sizing: border-box; }
+    border: 0px #ffffff solid; }
     .comparison-slider-wrapper .comparison-slider > img {
       width: 100%;
       height: auto;
-      display: block; }
+      display: block;
+      user-select: none;
+    }
     .comparison-slider-wrapper .comparison-slider .overlay {
       display: none;
       position: absolute;
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      user-select: none;
+    }
       @media screen and (min-width: 767px) {
         .comparison-slider-wrapper .comparison-slider .overlay {
           display: block; } }
@@ -27,29 +30,34 @@
       left: 0;
       height: 100%;
       width: 50%;
-      overflow: hidden; }
+      overflow: hidden; 
+      user-select: none;}
       .comparison-slider-wrapper .comparison-slider .resize > img {
-        display: block; }
+        display: block;
+        user-select: none;
+      }
     .comparison-slider-wrapper .comparison-slider .divider {
       position: absolute;
-      width: 3px;
+      width: 1px;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.5);
       left: 50%;
       top: 0;
       bottom: 0;
       margin-left: -1px;
-      cursor: ew-resize; }
+      cursor: ew-resize;
+      user-select: none;
+    }
       .comparison-slider-wrapper .comparison-slider .divider:before {
         content: "";
         position: absolute;
-        width: 40px;
-        height: 40px;
-        left: -18px;
+        width: 34px;
+        height: 34px;
+        left: -15px;
         top: 50%;
-        margin-top: -20px;
+        margin-top: -17px;
         border-radius: 50%;
-        background-color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.3);
         transition: all 0.1s ease-in-out; }
       .comparison-slider-wrapper .comparison-slider .divider:after {
         content: "\2039\a0\203A";
@@ -63,7 +71,7 @@
         text-align: center;
         transition: all 0.1s ease-in-out; }
       .comparison-slider-wrapper .comparison-slider .divider.draggable:before {
-        width: 60px;
-        height: 60px;
-        left: -28px;
-        margin-top: -30px; }
+        width: 40px;
+        height: 40px;
+        left: -18px;
+        margin-top: -20px; }
