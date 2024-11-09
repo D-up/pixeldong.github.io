@@ -1,13 +1,12 @@
 .comparison-slider-wrapper {
   position: relative;
   width: 100%;
-  margin: 0px 0;
-  background-color: #ffffff; }
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
   .comparison-slider-wrapper .comparison-slider {
     position: relative;
     width: 100%;
-    margin: 0;
-    border: 0px #ffffff solid; }
+    margin: 0; }
     .comparison-slider-wrapper .comparison-slider > img {
       width: 100%;
       height: auto;
@@ -21,7 +20,7 @@
       height: 100%;
       user-select: none;
     }
-      @media screen and (min-width: 767px) {
+      @media screen and (min-width: 484px) {
         .comparison-slider-wrapper .comparison-slider .overlay {
           display: block; } }
     .comparison-slider-wrapper .comparison-slider .resize {
