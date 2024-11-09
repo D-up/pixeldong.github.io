@@ -77,3 +77,31 @@
 html, body {
   overflow: hidden;
 }
+.custom-div-left {
+  background-color: rgba(0, 0, 0, 0.2); /* 黑色背景，透明度为 0.2 */
+  border-radius: 10px; /* 圆角 */
+  padding: 10px; /* 内边距 */
+  font-family: Arial, sans-serif; /* 黑体 */
+  font-size: 20px; /* 字号 */
+  color: #ffffff; /* 文字颜色为白色 */
+  position: fixed; /* 固定位置 */
+  bottom: 20px; /* 底部距离 20px */
+  left: 20px; /* 左侧距离 20px */
+  box-sizing: border-box; /* 防止 padding 影响大小 */
+  max-width: calc(100% - 40px); /* 防止宽度超出屏幕 */
+  overflow-wrap: break-word; /* 保持文字在较小宽度时不溢出 */
+}
+.custom-div-right {
+  background-color: rgba(0, 0, 0, 0.2); /* 黑色背景，透明度为 0.2 */
+  border-radius: 10px; /* 圆角 */
+  padding: 10px; /* 内边距 */
+  font-family: Arial, sans-serif; /* 黑体 */
+  font-size: 20px; /* 字号 */
+  color: #ffffff; /* 文字颜色为白色 */
+  position: fixed; /* 固定位置 */
+  bottom: 20px; /* 底部距离 20px */
+  right: 20px; /* 左侧距离 20px */
+  box-sizing: border-box; /* 防止 padding 影响大小 */
+  max-width: calc(100% - 40px); /* 防止宽度超出屏幕 */
+  overflow-wrap: break-word; /* 保持文字在较小宽度时不溢出 */
+}
