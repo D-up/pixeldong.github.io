@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?v=01f7117d60239a44cbc7edf43f9fda6e">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css?v=01f7117d60239a44cbc7edf43f9fda6e" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../css/ba-slider.css" rel="stylesheet" />
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js?v=01f7117d60239a44cbc7edf43f9fda6e" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</head>
+<body>
+<div >
+    <div>
+        <div >
+            <div class="comparison-slider-wrapper">
+                <div id="ba-slider" class="comparison-slider">
+                    <div class="overlay">
+                        <div class="custom-div-right" >开启后</div>
+                    </div>
+                    <img src="image/after.jpg" alt="after"/>
+                    <div class="resize">
+                        <div class="overlay">
+                            <div class="custom-div-left" >开启前</div>
+                        </div>
+                        <img src="image/before.jpg" alt="before"/>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/ba-slider.js"></script>
+<script>
+    $(document).ready(function () {
+        baSlider("#ba-slider");
+    });
+</script>
+</body>
+</html>
