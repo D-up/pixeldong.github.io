@@ -45,9 +45,9 @@
       }
     .comparison-slider-wrapper .comparison-slider .divider {
       position: absolute;
-      width: 1px;
+      width: 4px;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(255, 255, 255, 0.8);
       left: 50%;
       top: 0;
       bottom: 0;
@@ -75,7 +75,7 @@
         top: 50%;
         margin-top: -24px;
         margin-left: -12px;
-        color: #ffffff;
+        color: #000000;
         font-weight: 900;
         text-align: center;
         transition: all 0.1s ease-in-out; }
