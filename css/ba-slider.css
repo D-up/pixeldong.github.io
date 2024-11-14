@@ -75,7 +75,7 @@
         top: 50%;
         margin-top: -24px;
         margin-left: -12px;
-        color: #000000;
+        color: #ffffff;
         font-weight: 900;
         text-align: center;
         transition: all 0.1s ease-in-out; }
@@ -92,7 +92,7 @@ html, body {
   border-radius: 10px; /* 圆角 */
   padding: 10px; /* 内边距 */
   font-family: Arial, sans-serif; /* 黑体 */
-  font-size: 20px; /* 字号 */
+  font-size: 16px; /* 字号 */
   color: #ffffff; /* 文字颜色为白色 */
   position: fixed; /* 固定位置 */
   bottom: 20px; /* 底部距离 20px */
@@ -106,7 +106,7 @@ html, body {
   border-radius: 10px; /* 圆角 */
   padding: 10px; /* 内边距 */
   font-family: Arial, sans-serif; /* 黑体 */
-  font-size: 20px; /* 字号 */
+  font-size: 16px; /* 字号 */
   color: #ffffff; /* 文字颜色为白色 */
   position: fixed; /* 固定位置 */
   bottom: 20px; /* 底部距离 20px */
