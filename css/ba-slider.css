@@ -12,6 +12,7 @@
       height: auto;
       display: block;
       user-select: none;
+      -webkit-user-select: none; /* Chrome/Safari */
     }
     .comparison-slider-wrapper .comparison-slider .overlay {
       display: none;
@@ -19,6 +20,8 @@
       width: 100%;
       height: 100%;
       user-select: none;
+      -webkit-user-select: none; /* Chrome/Safari */
+
     }
       @media screen and (min-width: 484px) {
         .comparison-slider-wrapper .comparison-slider .overlay {
@@ -30,10 +33,15 @@
       height: 100%;
       width: 50%;
       overflow: hidden; 
-      user-select: none;}
+      user-select: none;
+      -webkit-user-select: none; /* Chrome/Safari */
+
+    }
       .comparison-slider-wrapper .comparison-slider .resize > img {
         display: block;
         user-select: none;
+        -webkit-user-select: none; /* Chrome/Safari */
+
       }
     .comparison-slider-wrapper .comparison-slider .divider {
       position: absolute;
@@ -46,6 +54,8 @@
       margin-left: -1px;
       cursor: ew-resize;
       user-select: none;
+      -webkit-user-select: none; /* Chrome/Safari */
+
     }
       .comparison-slider-wrapper .comparison-slider .divider:before {
         content: "";
